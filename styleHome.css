@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round:ital@1&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #d1d1d1;
+  padding:20px;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  padding: 10px;
+  font-family: Playfair Display,sans-serif;
+  background-color: #f5f5f5;
+  position: sticky;
+  top: 0;
+  border-radius: 5px 5px 5px 5px;
+}
+.left-side > a{
+  padding-left: 5px;
+  text-decoration: none;
+  color: #808080;
+  border-bottom: 2px solid transparent;
+}
+
+#home{
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+#difference:hover{
+  transition: 2s ease;
+  border-bottom: 2px solid black;
+  color: black;
+}
+#democracy:hover{
+  transition: 2s ease;
+  border-bottom: 2px solid black;
+  color: black;
+}
+#systems:hover{
+  transition: 2s ease;
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+#broad:hover{
+  transition: 2s ease;
+  border-bottom: 2px solid black;
+  color: black;
+}
+
+.container > p {
+  line-height: 25px;
+  font-family: Crete Round, sans-serif;
+  font-size: 18px;
+
+}
+.history{
+  display: flex;
+  font-family: Crete Round, sans-serif;
+  font-size: auto;
+}
+.container > h1, h2{
+  border-bottom: 2px solid black;
+}
+
+.container > img{
+  width: 20%;
+  align-self: auto;
+  background-size: contain;
+}
+
+@media only screen and (max-width: 600px){
+  header{
+    position: relative;
+    display: contents;
+    top: 0;
+  }
+  #home, #difference, #democracy, #systems, #broad{
+  display: block;
+  }
+
+}
