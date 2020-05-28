@@ -1,3 +1,3 @@
 # Project 0
+check the nav bar!
 
-Web Programming with Python and JavaScript
